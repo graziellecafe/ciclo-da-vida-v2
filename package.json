@@ -1,0 +1,33 @@
+{
+  "name": "ciclo-da-vida",
+  "version": "1.0.0",
+  "description": "Projeto construído a partir da ideia de um 'Ciclo da Vida' de uma pessoa, com o intuito em aprender mais sobre os conceitos de Programação Orientada a Objetos. JavaScript, TypeScript e Node.",
+  "main": "dist/src/main.js",
+  "types": "dist/src/main.d.ts",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "ts-node ./src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/graziellecafe/ciclo-da-vida.git"
+  },
+  "keywords": [
+    "ciclo-da-vida",
+    "programação orientada a objetos",
+    "typescript",
+    "node"
+  ],
+  "author": "Grazielle Café",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.13",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
