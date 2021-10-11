@@ -1,6 +1,5 @@
 import { Pessoa } from "./entities/Pessoa";
 import { AcaoSocial } from "./services/AcaoSocial"
-import { Banco } from "./services/Banco";
 import { MundoCapitalista } from "./services/MundoCapitalista"
 
 class CicloDaVida { 
